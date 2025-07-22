@@ -29,12 +29,12 @@ animation.AnimationId = getmodel() == "R15"
     or "rbxassetid://72042024"
 
 local tool = Instance.new("Tool")
-tool.Name = "[Celestial,Windstruck.Burn,Shocked,Vedarn,Choc,Rainbow"
+tool.Name = "[Celestial,Windstruck,Burn,Shocked"
 tool.RequiresHandle = false
 tool.Parent = pack
 
 local sound = Instance.new("Sound")
-sound.SoundId = "rbxassetid://79724238974606"  -- thay ID nếu cần
+sound.SoundId = "rbxassetid://79724238974606"
 sound.Volume = 1
 sound.Looped = false
 sound.Parent = tool
