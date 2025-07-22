@@ -29,7 +29,7 @@ animation.AnimationId = getmodel() == "R15"
     or "rbxassetid://72042024"
 
 local tool = Instance.new("Tool")
-tool.Name = "[Celestial,Windstruck, Burnt,Shocked"
+tool.Name = "[Celestial,Windstruck,Burnt,Shocked"
 tool.RequiresHandle = false
 tool.Parent = pack
 
