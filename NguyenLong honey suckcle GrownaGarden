@@ -4,17 +4,14 @@ local hum = char:FindFirstChild("Humanoid") or char:WaitForChild("Humanoid")
 local anim = hum:FindFirstChildOfClass("Animator") or hum:WaitForChild("Animator")
 local pack = plr:FindFirstChild("Backpack") or plr:WaitForChild("Backpack")
 
--- Nếu đã tồn tại animation cũ thì xoá
 if workspace:FindFirstChild("aaa") then
     workspace:FindFirstChild("aaa"):Destroy()
 end
 
--- Hàm xác định R6 hay R15
 local function getmodel()
     return hum.RigType == Enum.HumanoidRigType.R15 and "R15" or "R6"
 end
 
--- Hàm hiện thông báo
 local function Notify(Title, Text, Duration)
     game:GetService('StarterGui'):SetCore('SendNotification', {
         Title = Title,
@@ -22,9 +19,8 @@ local function Notify(Title, Text, Duration)
         Duration = Duration
     })
 end
-Notify("Script Made By LongDepChai", "My discord is: skondoooo92", 15)
+Notify("Script Made By LongDepChai", "MeMayBell", 15)
 
--- Tạo Animation object
 local animation = Instance.new("Animation")
 animation.Name = "aaa"
 animation.Parent = workspace
